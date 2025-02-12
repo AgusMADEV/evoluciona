@@ -1,0 +1,35 @@
+#destacados{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#destacados article{
+   min-height:800px;
+   text-align: center;
+   box-sizing: border-box;
+   padding: 40px;
+   background-size: cover !important;
+   background-position:center !important;
+}
+@media screen and (max-width: 800px) {
+	#destacados{
+		display: block;
+	}
+}
+#destacados h3, #destacados h4{
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+#destacados h4{
+    font-size: 1em;
+}
+#destacados button{
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 40px;
+    width: 200px;
+    background: none;
+    color: whitesmoke;
+}

@@ -1,0 +1,89 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    height: 150px;
+    position: absolute;
+    top:0px;
+    width: 100%;
+    background: none;
+    transition: all 1s;
+    z-index: 100000;
+    overflow: hidden;
+}
+.grande{
+    height: 440px;
+}
+header .contenedor{
+    text-align: center;
+}
+header .contenedor img{
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+header .contenedor img:hover{
+    transform: scale(1.15);
+}
+header .contenedor nav{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+}
+header .contenedor nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+header .contenedor nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    line-height: 44px;
+    transition: all 0.3s ease-in-out;
+}
+header .contenedor  ul li:hover{
+    transform: scale(1.2);
+}
+header .contenedor ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header .contenedor ul li a{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.3) ;
+
+}
+#supermenu{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    margin-top: 20px;
+    text-align: left;
+}
+#supermenu .columna{
+	width:25%;
+}
+#supermenu .columna h3{
+	color: whitesmoke;
+    font-size: 20px;
+}
+#supermenu ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+#supermenu ul li{
+    line-height: 26px;
+}
+.difuminado{
+    filter: blur(10px) brightness(0.8)
+}
+main{
+    transition: all 0.5s;
+}

@@ -1,0 +1,23 @@
+{
+    "cliente": {
+        "nombre": "AGUSTIN",
+        "apellidos": "aaa",
+        "email": "agustin@morcillo.com"
+    },
+    "pedido": {
+        "fecha": "2025-1-29",
+        "numerodepedido": "2025129233553"
+    },
+    "productos": [
+        {
+            "nombre": "Orientación educativa",
+            "descripcion": "Orientación educativa",
+            "precio": "120.00"
+        },
+        {
+            "nombre": "Terapia Infanto-Juvenil",
+            "descripcion": "Terapia Infanto-Juvenil",
+            "precio": "50.00"
+        }
+    ]
+}

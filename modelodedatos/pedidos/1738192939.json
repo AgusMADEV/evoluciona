@@ -1,0 +1,28 @@
+{
+    "cliente": {
+        "nombre": "Elena",
+        "apellidos": "aaaa",
+        "email": "e.botezatu@edu.gva.es"
+    },
+    "pedido": {
+        "fecha": "2025-1-30",
+        "numerodepedido": "202513002219"
+    },
+    "productos": [
+        {
+            "nombre": "Orientación educativa",
+            "descripcion": "Orientación educativa",
+            "precio": "120.00"
+        },
+        {
+            "nombre": "Orientación educativa",
+            "descripcion": "Orientación educativa",
+            "precio": "120.00"
+        },
+        {
+            "nombre": "Terapia Infanto-Juvenil",
+            "descripcion": "Terapia Infanto-Juvenil",
+            "precio": "50.00"
+        }
+    ]
+}

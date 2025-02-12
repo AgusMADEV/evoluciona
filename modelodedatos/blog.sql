@@ -1,0 +1,1 @@
+CREATE TABLE `proyectoapple`.`blog` (`Identificador` INT(255) NOT NULL AUTO_INCREMENT , `titulo` VARCHAR(255) NOT NULL , `imagen` MEDIUMBLOB NOT NULL , `fecha` DATE NOT NULL , `contenido` TEXT NOT NULL , `categoriasblog_categoria` INT(255) NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;

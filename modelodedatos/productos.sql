@@ -1,0 +1,1 @@
+CREATE TABLE `proyectoapple`.`productos` (`Identificador` INT(255) NOT NULL AUTO_INCREMENT , `titulo` VARCHAR(255) NOT NULL , `descripcion` TEXT NOT NULL , `categorias_nombre` INT(255) NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;

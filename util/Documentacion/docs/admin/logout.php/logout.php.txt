@@ -1,0 +1,2 @@
+Este archivo se llama en el caso de ejecutar un cierre de sesión y es el encargado de en primer lugar iniciar la sesión a continuación destruir la sesión.
+    Por último redireccionar al formulario de inicio de sesión

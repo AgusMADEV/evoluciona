@@ -1,0 +1,23 @@
+{
+    "cliente": {
+        "nombre": "Pedro",
+        "apellidos": "asasa",
+        "email": "pedro@pedro.com"
+    },
+    "pedido": {
+        "fecha": "2025-1-29",
+        "numerodepedido": "202512923370"
+    },
+    "productos": [
+        {
+            "nombre": "Orientación educativa",
+            "descripcion": "Orientación educativa",
+            "precio": "120.00"
+        },
+        {
+            "nombre": "Terapia Infanto-Juvenil",
+            "descripcion": "Terapia Infanto-Juvenil",
+            "precio": "50.00"
+        }
+    ]
+}

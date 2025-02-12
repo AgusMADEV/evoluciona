@@ -1,0 +1,23 @@
+{
+    "cliente": {
+        "nombre": "Prueba",
+        "apellidos": "rrr",
+        "email": "nievesaguado99@gmail.com"
+    },
+    "pedido": {
+        "fecha": "2025-1-29",
+        "numerodepedido": "2025129234059"
+    },
+    "productos": [
+        {
+            "nombre": "Orientación educativa",
+            "descripcion": "Orientación educativa",
+            "precio": "120.00"
+        },
+        {
+            "nombre": "Terapia Infanto-Juvenil",
+            "descripcion": "Terapia Infanto-Juvenil",
+            "precio": "50.00"
+        }
+    ]
+}
