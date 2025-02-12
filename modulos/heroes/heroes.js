@@ -1,5 +1,5 @@
 function recogeHeroes(){
-    fetch("../back/?tabla=heroes")                             // Cargo un endpoint en el back                               
+    fetch(ruta_back+"?tabla=heroes")                             // Cargo un endpoint en el back                               
     .then(function(response){                               // Cuando obtenga respuesta                                    
         return response.json()                              // La convierto en Json
     })  
@@ -11,7 +11,7 @@ function recogeHeroes(){
             let instancia = plantillaheroe.content.cloneNode(true);
             instancia.querySelector("h3").innerHTML = dato.titulo
             instancia.querySelector("h4").innerHTML = dato.texto
-            instancia.querySelector("article").style.background = "url(../static/"+dato.imagen+")"
+            instancia.querySelector("article").style.background = "url(static/"+dato.imagen+")"
             instancia.querySelector("#enlace1").setAttribute("href",dato.enlace1)
             instancia.querySelector("#enlace2").setAttribute("href",dato.enlace2)
             instancia.querySelector("#boton1").textContent = dato.textoboton1

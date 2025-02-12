@@ -1,4 +1,4 @@
-fetch("../back/?tabla=destacados")                             // Cargo un endpoint en el back                               
+fetch(ruta_back+"?tabla=destacados")                             // Cargo un endpoint en el back                               
 .then(function(response){                               // Cuando obtenga respuesta                                    
     return response.json()                              // La convierto en Json
 })  
@@ -10,7 +10,7 @@ fetch("../back/?tabla=destacados")                             // Cargo un endpo
         let instancia = plantilladestacado.content.cloneNode(true);
         instancia.querySelector("h3").textContent = dato.titulo
         instancia.querySelector("h4").textContent = dato.texto
-        instancia.querySelector("article").style.background = "url(../static/"+dato.imagen+")"
+        instancia.querySelector("article").style.background = "url(static/"+dato.imagen+")"
         contenedordestacados.appendChild(instancia)
     })
 })

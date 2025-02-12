@@ -105,7 +105,7 @@ class BloqueCajaPasaFotos extends Bloque {
         
         foreach($textojson as $clave=>$valor){
         $cadena .= "
-        				<article style='background:url(\"../static/".$valor->imagen."\")'>
+        				<article style='background:url(\"static/".$valor->imagen."\")'>
                 		<h3>".$valor->titulo."</h3>
                 		<p>".$valor->texto."</p>
                 	</article>

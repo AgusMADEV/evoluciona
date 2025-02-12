@@ -4,7 +4,7 @@
 	$bdusuario = "";
 	$bdcontrasena = "";
 	$bdbasededatos = "";
-	$bdconexion = mysqli_connect(
+	$conexion = mysqli_connect(
 		$bdservidor, 
 		$bdusuario, 
 		$bdcontrasena, 

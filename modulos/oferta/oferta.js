@@ -1,4 +1,4 @@
-fetch("../back/?tabla=oferta") // Cargo un endpoint en el back
+fetch(ruta_back+"?tabla=oferta") // Cargo un endpoint en el back
 .then(response => response.json()) // Convierto la respuesta en JSON
 .then(datos => {
     if (datos.length > 0) { // Si hay datos en la respuesta

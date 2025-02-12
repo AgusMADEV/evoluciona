@@ -1,5 +1,5 @@
 function procesaCabecera() {
-    fetch("../back/?tabla=categorias")
+    fetch(ruta_back+"?tabla=categorias")
         .then(response => response.json())
         .then(datos => {
             let cabecera = document.querySelector("header nav ul");
@@ -20,7 +20,7 @@ function procesaCabecera() {
 
                 enlace.addEventListener("mouseenter", function () {
                     let tituloseccion = this.textContent;
-                    fetch("../back/?busca=productos&campo=categorias_nombre&dato=" + this.getAttribute("cat"))
+                    fetch(ruta_back+"?busca=productos&campo=categorias_nombre&dato=" + this.getAttribute("cat"))
                         .then(response => response.json())
                         .then(datos => {
                             document.querySelector("#categoria").textContent = tituloseccion;
