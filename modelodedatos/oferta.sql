@@ -1,1 +1,0 @@
-CREATE TABLE `proyectoapple`.`usuarios` (`Identificador` INT(255) NOT NULL AUTO_INCREMENT , `email` VARCHAR(255) NOT NULL , `contrasena` VARCHAR(255) NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;
