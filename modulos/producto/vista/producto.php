@@ -1,6 +1,6 @@
 <main>
 	<?php 
-		include "modulos/bloque/bloque.php"; 
+		include "modulos/bloque/vista/bloque.php"; 
 		
 		include "config.php"; 
 
@@ -76,7 +76,7 @@
 	?>
 </main>
 <script>
-	<?php include "producto.js"?>
+	<?php include "./modulos/producto/control/producto.js"?>
 </script>
 <style>
 	<?php include "producto.css"?>

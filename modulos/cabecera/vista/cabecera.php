@@ -23,7 +23,7 @@
                 </li>
                 <li>
                     <?php
-                        include "modulos/tienda/artilugio.php";
+                        include "modulos/tienda/vista/artilugio.php";
                     ?>
                 </li>
             </ul>
@@ -63,8 +63,8 @@
     </div>
 </header>
 <script>
-<?php include "funciones.js" ?>
+<?php include "./modulos/cabecera/control/funciones.js" ?>
 </script>
 <script>
-<?php include "cabecera.js" ?>
+<?php include "./modulos/cabecera/control/cabecera.js" ?>
 </script>

@@ -5,5 +5,5 @@
     <p><a></a></p>
 </section>
 <script>
-    <?php include "oferta.js" ?>
+    <?php include "./modulos/oferta/control/oferta.js" ?>
 </script>

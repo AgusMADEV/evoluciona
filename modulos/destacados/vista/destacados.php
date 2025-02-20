@@ -12,5 +12,5 @@
     </template>
 </section>
 <script>
-    <?php include "destacados.js" ?>
+    <?php include "./modulos/destacados/control/destacados.js" ?>
 </script>

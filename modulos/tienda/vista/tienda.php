@@ -27,11 +27,11 @@
             </div>
         </section>
         <?php
-            include "modulos/productosrelacionados/productosrelacionados.php"
+            include "modulos/productosrelacionados/vista/productosrelacionados.php"
         ?>
     </div>
 
 </main>
 <script>
-<?php include "tienda.js" ?>
+<?php include "./modulos/tienda/control/tienda.js" ?>
 </script>

@@ -21,5 +21,5 @@
     </div>
 </main>
 <script>
-<?php include "contacto.js" ?>
+<?php include "./modulos/contacto/control/contacto.js" ?>
 </script>

@@ -7,5 +7,5 @@
     </div>
 </div>
 <script>
-<?php include "modalpersonalizado.js" ?>
+<?php include "./modulos/modalpersonalizado/control/modalpersonalizado.js" ?>
 </script>

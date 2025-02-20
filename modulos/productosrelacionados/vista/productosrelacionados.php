@@ -8,6 +8,6 @@
 </style>
 <script>
     <?php 
-        include "productosrelacionados.js"
+        include "./modulos/productosrelacionados/control/productosrelacionados.js"
     ?>
 </script>

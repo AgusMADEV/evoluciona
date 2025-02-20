@@ -14,5 +14,5 @@
     </article>
 </template>
 <script>
-<?php include "blog.js" ?>
+<?php include "./modulos/blog/control/blog.js" ?>
 </script>
