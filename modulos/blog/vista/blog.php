@@ -1,6 +1,6 @@
-<style>
-<?php include "blog.css" ?>
-</style>
+<!-- 
+    En este archivo encontramos la estructura básica del blog de la aplicación Evoluciona
+-->
 <main id="blog">
     Esta es la pagina del blog
 </main>
@@ -16,3 +16,6 @@
 <script>
 <?php include "./modulos/blog/control/blog.js" ?>
 </script>
+<style>
+<?php include "blog.css" ?>
+</style>

@@ -1,3 +1,9 @@
+/**
+ * Función que carga las entradas del blog desde el backend y las muestra en la página.
+ * - Obtiene los datos del blog mediante fetch.
+ * - Crea y rellena plantillas con la información recibida.
+ * - Permite abrir un modal con el contenido completo de cada entrada.
+ */
 function cargaBlog(){
     fetch(ruta_back+"?tabla=blog")                                                             // Cargo un endpoint en el back
     .then(function(response) {                                                               // Cuando obtenga respuesta
