@@ -26,7 +26,7 @@ document.querySelector("#enviar").onclick = function(){
             document.querySelector("#email").classList.remove("tomato")
         }else{
             document.querySelector("#ayudaemail").textContent = "Introduce un email VALIDO"
-			document.querySelector("#email").classList.add("rojo")
+			document.querySelector("#email").classList.add("tomato")
         }
     }
     if(asunto == ""){

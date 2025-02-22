@@ -20,7 +20,7 @@ function cargaBlog(){
             instancia.querySelector("article").setAttribute("Identificador",dato.Identificador)
             instancia.querySelector("article").onclick = function(){
                 // Cargo el artículo del blog
-                fetch(ruta_back+"?busca=blog&campo=Identificador&dato="+this.getAttribute("Identificador"))                                                             // Cargo un endpoint en el back
+                fetch(ruta_back+"?busca=blog&campo=Identificador&dato="+this.getAttribute("Identificador"))          // Cargo un endpoint en el back
                 .then(function(response) {                                                               // Cuando obtenga respuesta
                     return response.json();                                                              // La convierto en json
                 })
