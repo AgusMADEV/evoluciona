@@ -15,7 +15,7 @@
 <title><?php echo $datosweb['titulo']; ?></title>
 <meta charset="utf-8">
 <link rel="Stylesheet" href="estilo/general.css">
-<link rel="icon" type="image/svg+xml" href="img/logoe3.svg">
+<link rel="icon" type="image/svg+xml" href="https://evo-luciona.es/static/logo/evoluciona.svg" />
 <meta name="description" content="<?php echo $datosweb['descripcion']; ?>">
 <meta name="robots" content="index,follow">
 <meta name="keywords" content="<?php echo $datosweb['palabrasclave']; ?>">
