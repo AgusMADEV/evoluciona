@@ -21,7 +21,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // Compose the email
-$to = "destinatario@ejemplo.com"; // Replace with your recipient email
+$to = "evoluciona@evo.com"; // Replace with your recipient email
 $subject = "Nuevo mensaje de contacto: $asunto";
 $body = "Nombre: $nombre\nEmail: $email\n\nMensaje:\n$mensaje";
 $headers = "From: $email\r\nReply-To: $email\r\n";
