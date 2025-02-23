@@ -1,3 +1,7 @@
+/*
+Este archivo contiene los estilos CSS específicos del módulo de modalpersonalizado. Define la apariencia y disposición 
+de los elementos de modalpersonalizado para mejorar la experiencia de usuario.
+*/
 #contienemodalpersonalizado{
     background: rgb(0,0,0,0.5);
     position:fixed;

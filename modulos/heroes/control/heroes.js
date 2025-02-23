@@ -1,3 +1,7 @@
+/*
+Este archivo maneja la lógica del módulo de héroes en el frontend. Controla la interacción del 
+usuario con la sección de héroes, la carga dinámica de contenido y posibles animaciones o efectos.
+*/
 function recogeHeroes(){
     fetch(ruta_back+"?tabla=heroes")                             // Cargo un endpoint en el back                               
     .then(function(response){                               // Cuando obtenga respuesta                                    

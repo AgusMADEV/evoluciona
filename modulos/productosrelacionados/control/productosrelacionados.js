@@ -1,3 +1,7 @@
+/*
+Este archivo maneja la lógica del módulo de productosrelacionados en el frontend. Controla la interacción del usuario con 
+productosrelacionados, la carga dinámica de contenido y la gestión de eventos.
+*/
 function productosRelacionados(){
     fetch(ruta_back+"?tabla=productos") 											// Cargo un endpoint en el back
 	.then(function(response) { 													// Cuando obtenga respuesta

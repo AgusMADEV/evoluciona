@@ -1,3 +1,7 @@
+/*
+Este archivo genera un botón de reserva dinámico si se proporciona un parámetro `prod` en la URL. 
+El botón enlaza a la página del producto y tiene estilos con efecto hover en CSS.
+*/
 <style>
     #botonreserva{
         border: none;

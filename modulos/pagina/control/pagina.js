@@ -1,3 +1,7 @@
+/*
+Este archivo maneja la lógica del módulo de pagina en el frontend. Controla la interacción del usuario con pagina, 
+la carga dinámica de contenido y la gestión de eventos.
+*/
 function pagina(){
     const urlParams = new URLSearchParams(window.location.search);
     const idpagina = urlParams.get('pagina');

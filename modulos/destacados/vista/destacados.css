@@ -1,3 +1,7 @@
+/*
+Este archivo contiene los estilos CSS específicos del módulo de destacados. Define la apariencia 
+de los elementos destacados, asegurando un diseño atractivo y una presentación visual optimizada.
+*/
 #destacados{
     display: grid;
     grid-template-columns: auto auto;

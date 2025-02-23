@@ -1,3 +1,7 @@
+/*
+Este archivo maneja la lógica del módulo de contacto en el frontend. Valida los datos ingresados 
+por el usuario, gestiona el envío del formulario y muestra mensajes de confirmación o error.
+*/
 document.querySelector("#enviar").onclick = function(){
     console.log("Voy a ver si envío un mensahe")
     // Primero recojo los datos de los campos

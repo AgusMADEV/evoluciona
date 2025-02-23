@@ -1,6 +1,6 @@
-<!-- 
+/*
     En este archivo encontramos la estructura básica del blog de la aplicación Evoluciona
--->
+*/
 <main id="blog">
     Esta es la pagina del blog
 </main>

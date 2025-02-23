@@ -1,3 +1,7 @@
+/*
+Este archivo maneja la lógica del módulo de carrusel en el frontend. Controla la rotación automática 
+de los elementos del carrusel, la navegación manual y las transiciones entre diapositivas.
+*/
 let puntos = document.querySelectorAll(".punto")					// Selecciono los puntos
 puntos.forEach(function(punto,index){									// PAra cada uno de los puntos
 	punto.onclick = function(){											// Cuando haga click en un punto			

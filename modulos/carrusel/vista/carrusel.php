@@ -1,3 +1,7 @@
+/*
+Este archivo representa la vista del módulo de carrusel. Se encarga de mostrar un carrusel de imágenes 
+o contenido dinámico en la interfaz. Utiliza plantillas HTML para estructurar los elementos del carrusel.
+*/
 <style>
     <?php include "carrusel.css" ?>
 </style>

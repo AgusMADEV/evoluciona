@@ -1,3 +1,7 @@
+/*
+Este archivo representa la vista del módulo de cabecera. Se encarga de mostrar el encabezado 
+de la página, incluyendo el logo, el menú de navegación y otros elementos relevantes para la interfaz.
+*/
 <style>
 <?php include "cabecera.css" ?>
 </style>

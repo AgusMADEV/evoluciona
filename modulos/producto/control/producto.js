@@ -1,3 +1,7 @@
+/*
+Este archivo maneja la lógica del módulo de producto en el frontend. Controla la interacción del usuario con producto, 
+la carga dinámica de contenido y la gestión de eventos.
+*/
 let botones = document.querySelectorAll(".controlador button")
 botones.forEach(function(boton){
     boton.onclick = function(){

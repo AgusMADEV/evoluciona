@@ -1,4 +1,7 @@
-// Me conecto a la base de datos en busca de ese producto
+/*
+Este archivo maneja la lógica del módulo de tienda en el frontend. Controla la interacción del usuario con tienda, 
+la carga dinámica de contenido y la gestión de eventos.
+*/
 
 listadoProductos()
 

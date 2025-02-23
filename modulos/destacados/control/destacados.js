@@ -1,3 +1,8 @@
+/*
+Este archivo maneja la lógica del módulo de destacados en el frontend. Controla la interacción 
+del usuario con los elementos destacados, la carga dinámica de contenido y la gestión de eventos 
+para mejorar la experiencia del usuario.
+*/
 fetch(ruta_back+"?tabla=destacados")                             // Cargo un endpoint en el back                               
 .then(function(response){                               // Cuando obtenga respuesta                                    
     return response.json()                              // La convierto en Json

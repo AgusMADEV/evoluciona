@@ -1,3 +1,7 @@
+/*
+Este archivo contiene los estilos CSS específicos del módulo de carrusel. Define la apariencia del carrusel, 
+las animaciones de transición y la disposición de los controles de navegación.
+*/
 #carrusel{
     overflow-x: hidden;
     position: relative;

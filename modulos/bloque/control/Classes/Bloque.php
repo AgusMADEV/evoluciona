@@ -1,3 +1,7 @@
+/*
+Este archivo define la clase Bloque, que representa un componente modular dentro de la aplicación. 
+Proporciona métodos y propiedades para gestionar bloques de contenido dinámico en la interfaz.
+*/
 <?php
 class AtributoEstilo {
     public $atributo;

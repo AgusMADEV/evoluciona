@@ -1,3 +1,8 @@
+/*
+Este archivo representa la vista del módulo de destacados. Se encarga de mostrar contenido 
+destacado dentro del sitio web, como productos, artículos o secciones importantes. Utiliza 
+plantillas HTML para estructurar los elementos dinámicamente.
+*/
 <style>
     <?php include "destacados.css" ?>
 </style>

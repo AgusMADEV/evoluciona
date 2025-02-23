@@ -1,3 +1,7 @@
+/*
+Este archivo maneja la lógica del módulo de piedepagina en el frontend. Controla la interacción del usuario con piedepagina, 
+la carga dinámica de contenido y la gestión de eventos.
+*/
 function pieDePagina(){
     fetch(ruta_back+"?tabla=redessociales")                             // Cargo un endpoint en el back                               
     .then(function(response){                               // Cuando obtenga respuesta                                    

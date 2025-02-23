@@ -1,3 +1,7 @@
+/*
+Este archivo contiene los estilos CSS específicos del módulo de contacto. Define la apariencia 
+del formulario, los botones de envío y los mensajes de validación para mejorar la experiencia de usuario.
+*/
 #contacto{
     width: 1024px;
     margin: auto;

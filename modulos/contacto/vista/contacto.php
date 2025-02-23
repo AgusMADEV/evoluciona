@@ -1,3 +1,8 @@
+/*
+Este archivo representa la vista del módulo de contacto. Se encarga de mostrar un formulario 
+para que los usuarios puedan enviar mensajes o consultas. También incluye validaciones y 
+conexión con el backend para el envío de datos.
+*/
 <style>
 <?php include "contacto.css" ?>
 </style>

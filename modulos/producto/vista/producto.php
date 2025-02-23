@@ -1,3 +1,7 @@
+/*
+Este archivo representa la vista del módulo de producto. Se encarga de mostrar el contenido relacionado con producto dentro 
+del sitio web, permitiendo estructurar la información de manera visual y dinámica.
+*/
 <main>
 	<?php 
 		include "modulos/bloque/vista/bloque.php"; 

@@ -1,3 +1,7 @@
+/*
+Este archivo contiene los estilos CSS específicos del módulo de modal. Define la apariencia de 
+las ventanas emergentes, su posición en la pantalla y los efectos de entrada y salida.
+*/
 #contienemodal{
     background: rgb(0,0,0,0.5);
     position:absolute;

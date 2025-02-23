@@ -1,3 +1,8 @@
+/*
+Este archivo representa la vista del módulo de héroes. Se encarga de mostrar una sección destacada 
+en la parte superior del sitio web, generalmente con un mensaje llamativo, una imagen de fondo y 
+posibles botones de llamada a la acción.
+*/
 <style>
     <?php include "heroes.css" ?>
 </style>
