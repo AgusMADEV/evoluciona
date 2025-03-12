@@ -1,7 +1,9 @@
+<?php
 /*
 Este archivo representa la vista del módulo de pagina. Se encarga de mostrar el contenido relacionado con pagina dentro 
 del sitio web, permitiendo estructurar la información de manera visual y dinámica.
 */
+?>
 <main>
 	<div class="contenedor">
 		<h3 id="titulopagina">Titulo de la pagina</h3>

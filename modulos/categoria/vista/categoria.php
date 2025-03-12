@@ -1,8 +1,10 @@
+<?php
 /*
 Este archivo representa la vista del módulo de categorías. Se encarga de mostrar la lista 
 de categorías y sus respectivos productos en la interfaz de usuario. Utiliza plantillas HTML 
 para estructurar los elementos dinámicamente.
 */
+?>
 <main>
     <?php
     include "modulos/bloque/vista/bloque.php";									// Incluyo los bloques

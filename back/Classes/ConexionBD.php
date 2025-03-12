@@ -30,7 +30,7 @@
                 }
                     $json[] = $fila;																// Hago un push al array
                 }
-                return json_encode($json);														// SAco el resultado en formato compatible con json
+                return json_encode($json);														// Saco el resultado en formato compatible con json
             }
 
             function pideAlgo($tabla){	

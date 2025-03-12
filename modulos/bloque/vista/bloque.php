@@ -1,8 +1,10 @@
+<?php
 /*
 Este archivo representa la vista del módulo de bloques. Se encarga de mostrar elementos 
 modulares en la interfaz de usuario. Puede ser utilizado para mostrar información específica 
 de forma estructurada dentro de la página.
 */
+?>
 <?php
 	include "./modulos/bloque/control/Classes/Bloque.php";
 ?>

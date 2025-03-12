@@ -1,7 +1,9 @@
+<?php
 /*
 Este archivo representa la vista del módulo de piedepagina. Se encarga de mostrar el contenido relacionado con piedepagina 
 dentro del sitio web, permitiendo estructurar la información de manera visual y dinámica.
 */
+?>
 <style>
     <?php include "piedepagina.css" ?>
 </style>
